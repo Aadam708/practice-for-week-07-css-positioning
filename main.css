@@ -18,7 +18,7 @@ html, body {
 #yellow-box {
     background-color: #ffff00;
 
-    position: absolute;
+    position: static;
     bottom: 2px;
     left: 0;
     right: 2px;
@@ -45,6 +45,8 @@ html, body {
     right: 0;
     top: 0;
     z-index: 3;
+    padding-left: 78px;
+
 }
 
 #red-box {
@@ -55,7 +57,7 @@ html, body {
     left: 100px;
     right: 0;
     top: 60px;
-    z-index:2 ;
+    z-index:12 ;
 }
 
 #orange-box {
